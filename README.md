@@ -6,6 +6,8 @@ Current conditions, temperature and feels like, humidity, wind, sea-level pressu
 UV, visibility, sunrise and sunset. Includes the next 8 hours and 5 days with
 weather emoji, temperatures and precipitation probability.
 
+![Terminal weather forecast for Warsaw](weather-preview.png)
+
 ## Install
 
 Requires Go 1.22 or newer.
