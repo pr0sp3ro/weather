@@ -6,7 +6,36 @@ Current conditions, temperature and feels like, humidity, wind, sea-level pressu
 UV, visibility, sunrise and sunset. Includes the next 8 hours and 5 days with
 weather emoji, temperatures and precipitation probability.
 
-![Terminal weather forecast for Warsaw](weather-preview.png)
+```text
+Weather · Warsaw, PL
+
+☁️ Cloudy  9°C
+Feels like 8°C  ·  Low 7°C / High 10°C
+
+Precip   1%    Humidity   86%
+Wind     7 km/h    Pressure   1018 hPa
+UV       0    Visibility 50.0 km
+Sunrise  07:16    Sunset     17:22
+
+Hourly
+  20:00    9°C    0%  ☁️ Cloudy
+  21:00    9°C    0%  ☁️ Cloudy
+  22:00    8°C    0%  🌙 Clear
+  23:00    8°C    0%  🌙 Clear
+  00:00    8°C    0%  ☁️ Cloudy
+  01:00    7°C    0%  ☁️ Cloudy
+  02:00    7°C    0%  ☁️ Cloudy
+  02:00    7°C    0%  ☁️ Cloudy
+
+Next days
+  Sun 25    6°C /  12°C  100%  🌧️ Rain
+  Sun 25    7°C /  10°C   87%  🌦️ Drizzle
+  Mon 26    3°C /  12°C    2%  ☁️ Cloudy
+  Tue 27    3°C /  12°C   12%  ☁️ Cloudy
+  Wed 28    6°C /  11°C   24%  🌦️ Drizzle
+
+Updated 19:00 · Europe/Warsaw · Open-Meteo
+```
 
 ## Install
 
