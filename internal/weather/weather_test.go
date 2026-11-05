@@ -1,4 +1,4 @@
-package main
+package weather
 
 import (
 	"encoding/json"
@@ -33,7 +33,7 @@ func TestReportAcrossMidnight(t *testing.T) {
 	f.Current.Time = start.Add(5 * time.Minute).Unix()
 	f.Hourly.Time = []int64{start.Unix(), start.Add(time.Hour).Unix()}
 	f.Daily.Time = []int64{start.Unix(), start.AddDate(0, 0, 1).Unix()}
-	output := fullReport(report{Forecast: f, Place: place{Name: "Warsaw", Country: "PL"}}, false)
+	output := FullReport(Report{Forecast: f, Place: place{Name: "Warsaw", Country: "PL"}}, false)
 	for _, want := range []string{"Precip   20%", "01:00", "40%", "Rain", "Humidity   -", "Visibility -"} {
 		if !strings.Contains(output, want) {
 			t.Errorf("missing %q in report:\n%s", want, output)

@@ -42,7 +42,7 @@ Updated 19:00 · Europe/Warsaw · Open-Meteo
 Requires Go 1.22 or newer.
 
 ```sh
-go build -o weather .
+go build -o weather ./cmd/weather
 install -Dm755 weather ~/.local/bin/weather
 ```
 
